@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	color: #181818;
+}
+html{
+	scroll-behavior: smooth;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+p {
+	font-size: 14px;
+}
+header, ul {
+	display: flex;
+}
+header {
+	justify-content: space-between;
+	height: 60px; 
+	align-items: center;
+	z-index: 8;
+}
+header a img, nav {
+    position: relative;
+    z-index: 5;
+}
+header, .cars {
+	width: 90%;
+}
+a{
+	color: #181818;
+	font-size: 14px;
+	transition: 300ms color ease;
+}
+a:hover{
+	color: #6AB04C;
+	transition: 300ms color ease;
+}
+.header-navigation {
+	width: 400px;
+	justify-content: space-between;
+	align-items: center;
+}
+.hero {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: calc(100vh - 60px);
+	align-items: center;
+	justify-content: center;
+}
+.hero::before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100vh;
+	background: #E8F0F3;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+.hero_content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+}
+.hero_title, .hero_content p{
+	align-self: flex-start;
+}
+
+}
+.hero_title{
+	font-size: 50px;
+}
+.hero_content p {
+	color: #fff;
+}
+.main_pic {
+	max-width: 630px;
+	height: auto;
+	padding-top: 10px;
+}
+.main_pic img {
+	max-width: 100%;
+	object-fit: cover;
+}
+.main_pic_info {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 30px;
+}
+.cars {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 60px 0;
+    width: 90%;
+}
+.cars_title {
+	font-size: 30px;
+}
+.cars p {
+	font-size: 10px;
+	color: #95A5A6;
+}
+.cars_menu {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 62px 0px 27px;
+}
+.footer_navigation{
+	display: flex;
+	justify-content: space-between;
+}
+.book{
+	border-radius: 30px;
+    background-image: linear-gradient(to bottom, #6ab04c, #badc58);
+    display: block;
+    text-align: center;
+    padding: 11px 34px ;
+    color: #FFFFFF;
+    position: relative;
+    transition: all .2s;
+}
+
